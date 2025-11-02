@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-
-  <!-- Simple types -->
-  <xs:simpleType name="PhoneType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="\d{3}-\d{3}-\d{4}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:simpleType name="StateType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Z]{2}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:simpleType name="ZipType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="\d{5}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:simpleType name="IATACodeType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Z]{3}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <xs:simpleType name="RatingType">
-    <xs:restriction base="xs:decimal">
-      <xs:minInclusive value="0"/>
-      <xs:maxInclusive value="5"/>
-    </xs:restriction>
-  </xs:simpleType>
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified">
+  <xs:simpleType name="PhoneType"><xs:restriction base="xs:string"><xs:pattern value="\d{3}-\d{3}-\d{4}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="StateType"><xs:restriction base="xs:string"><xs:pattern value="[A-Z]{2}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="ZipType"><xs:restriction base="xs:string"><xs:pattern value="\d{5}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="IATACodeType"><xs:restriction base="xs:string"><xs:pattern value="[A-Z]{3}"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="RatingType"><xs:restriction base="xs:decimal"><xs:minInclusive value="0"/><xs:maxInclusive value="5"/></xs:restriction></xs:simpleType>
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
