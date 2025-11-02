@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <!-- Error 1: Non-numeric Number -->
+  <Hotel>
+    <Name>Error Inn</Name>
+    <Phone>999-555-0000</Phone>
+    <Address NearestAirport="PHX">
+      <Number>NaN</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error 2: Misspelled element 'Phon' -->
+  <Hotel>
+    <Name>Typos Lodge</Name>
+    <Phon>999-555-0001</Phon>
+    <Address NearestAirport="PHX">
+      <Number>2</Number>
+      <Street>2nd St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error 3: Extra undeclared element 'Country' -->
+  <Hotel>
+    <Name>Extra Country Hotel</Name>
+    <Phone>999-555-0002</Phone>
+    <Address NearestAirport="PHX">
+      <Number>3</Number>
+      <Street>3rd Ave</Street>
+      <City>Glendale</City>
+      <Country>USA</Country>
+      <State>AZ</State>
+      <Zip>85305</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error 4: Missing required attribute NearestAirport -->
+  <Hotel>
+    <Name>Missing Airport</Name>
+    <Phone>999-555-0003</Phone>
+    <Address>
+      <Number>4</Number>
+      <Street>4th Dr</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error 5: Wrong child order: Street before Number -->
+  <Hotel>
+    <Name>Order Wrong</Name>
+    <Phone>999-555-0004</Phone>
+    <Address NearestAirport="PHX">
+      <Street>5th Way</Street>
+      <Number>5</Number>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85224</Zip>
+    </Address>
+  </Hotel>
+</Hotels>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel Rating="4.5">
+    <Name>Desert Sun Resort</Name>
+    <Phone>480-555-0101</Phone>
+    <Phone>480-555-0199</Phone>
+    <Address NearestAirport="PHX">
+      <Number>100</Number>
+      <Street>Sunrise Blvd</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.2">
+    <Name>Canyon Vista Inn</Name>
+    <Phone>928-555-0102</Phone>
+    <Address NearestAirport="FLG">
+      <Number>200</Number>
+      <Street>Rim View Rd</Street>
+      <City>Flagstaff</City>
+      <State>AZ</State>
+      <Zip>86001</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Sonoran Suites</Name>
+    <Phone>602-555-0103</Phone>
+    <Phone>602-555-0177</Phone>
+    <Address NearestAirport="PHX">
+      <Number>300</Number>
+      <Street>Agave Way</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85002</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Tempe Lakes Hotel</Name>
+    <Phone>480-555-0104</Phone>
+    <Address NearestAirport="PHX">
+      <Number>400</Number>
+      <Street>Marina Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Mesa Palms</Name>
+    <Phone>480-555-0105</Phone>
+    <Address NearestAirport="AZA">
+      <Number>500</Number>
+      <Street>Palm Grove</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Scottsdale Grand</Name>
+    <Phone>480-555-0106</Phone>
+    <Phone>480-555-0186</Phone>
+    <Address NearestAirport="PHX">
+      <Number>600</Number>
+      <Street>Old Town Ln</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Glendale Arena Hotel</Name>
+    <Phone>623-555-0107</Phone>
+    <Address NearestAirport="PHX">
+      <Number>700</Number>
+      <Street>Arena Pkwy</Street>
+      <City>Glendale</City>
+      <State>AZ</State>
+      <Zip>85305</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Chandler Oasis</Name>
+    <Phone>480-555-0108</Phone>
+    <Address NearestAirport="PHX">
+      <Number>800</Number>
+      <Street>Ocotillo Rd</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85224</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Gilbert Heritage Inn</Name>
+    <Phone>480-555-0109</Phone>
+    <Address NearestAirport="PHX">
+      <Number>900</Number>
+      <Street>Heritage St</Street>
+      <City>Gilbert</City>
+      <State>AZ</State>
+      <Zip>85234</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Peoria Springs</Name>
+    <Phone>623-555-0110</Phone>
+    <Address NearestAirport="PHX">
+      <Number>1000</Number>
+      <Street>Spring Ct</Street>
+      <City>Peoria</City>
+      <State>AZ</State>
+      <Zip>85345</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
